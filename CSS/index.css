@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+h2 {
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #D9D9D9;
+	border-radius: 3px;
+	background-color: #D9D9D9;
+}
+div#wrap {
+	width: 800px;
+	height: 100%;
+	margin: 50px auto;
+}
+table.view {
+	width: 100%;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+.view th,
+.view td {
+	border: 1px solid #000;
+}
+.view th {
+	background-color: #D9D9D9;
+}
+.view td {
+	padding: 3px;
+}
+
+button.button {
+	float: right;
+	margin: 5px;
+}
